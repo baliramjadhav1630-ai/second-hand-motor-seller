@@ -1,5 +1,5 @@
-const API_BASE = '/api';
-
+ const API_BASE = 'https://second-hand-motor-seller-backend.onrender.com/api';
+ 
 export async function apiRequest<T = any>(
   endpoint: string,
   options: RequestInit = {}
